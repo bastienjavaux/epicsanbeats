@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1283.705" height="785.352" viewBox="0 0 1283.705 785.352">
+  <defs>
+    <rect id="rect-1" width="1280" height="783" x="1.352" y="2.352"/>
+    <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="1283.705" height="785.352" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-1"/>
+    </mask>
+    <linearGradient id="linearGradient-4" x1="641.352" x2="641.352" y1="2.352" y2="785.352" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(38,38,38)"/>
+      <stop offset="1" stop-color="rgb(20,20,20)"/>
+    </linearGradient>
+    <path id="path-5" fill-rule="evenodd" d="M1281.35231505 707.05231505c-62.13333333-62.495-124.4-124.845-212.26666666-147.465-87.86666667-22.475-201.6-5.075-246-58.87-44.26666667-53.94-19.33333334-179.22-39.33333334-274.195-20.13333333-94.975-85.33333333-159.5-150.4-224.17h648v704.7z"/>
+    <filter id="filter-6" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="0" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="12.651"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+    <linearGradient id="linearGradient-7" x1="957.352" x2="957.352" y1="2.352" y2="707.052" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(130,112,247)"/>
+      <stop offset=".54" stop-color="rgb(113,75,253)"/>
+      <stop offset="1" stop-color="rgb(107,51,255)"/>
+    </linearGradient>
+    <rect id="rect-8" width="654.4" height="704.7" x="1.352" y="80.652"/>
+    <path id="path-9" fill-rule="evenodd" d="M1.35231505 80.65231505c96.4.725 192.66666667 1.45 244.93333334 61.625 52.26666666 60.32 60.4 180.235 121.86666666 244.18 61.33333334 64.09 176.13333334 72.065 231.86666667 129.195 55.73333333 57.13 52.53333333 163.415 49.33333333 269.7h-648v-704.7z"/>
+    <filter id="filter-10" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="0" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="12.651"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+    <linearGradient id="linearGradient-11" x1="328.552" x2="328.552" y1="80.652" y2="785.352" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(130,112,247)"/>
+      <stop offset=".53" stop-color="rgb(121,95,251)"/>
+      <stop offset="1" stop-color="rgb(107,51,255)"/>
+    </linearGradient>
+    <path id="path-12" fill-rule="evenodd" d="M2.35231505 2.35231505s205 65.48729043 362 54.82656873c157-10.6607217 358.5-59.83615279 486-34.32656873 127.5 25.50958407 140 34.32656873 255 34.32656873s176-54.82656873 176-54.82656873h-1279z"/>
+  </defs>
+  <g>
+    <g>
+      <use fill="none" xlink:href="#rect-1"/>
+      <g mask="url(#mask-2)">
+        <rect width="1280" height="783" x="1.352" y="2.352" fill="url(#linearGradient-4)" rx="0" ry="0"/>
+        <g>
+          <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-6)" xlink:href="#path-5"/>
+          <use fill="url(#linearGradient-7)" xlink:href="#path-5"/>
+        </g>
+        <g>
+          <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-10)" xlink:href="#path-9"/>
+          <use fill="url(#linearGradient-11)" xlink:href="#path-9"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <use fill="rgb(130,112,247)" xlink:href="#path-12"/>
+      <use fill-opacity="0" stroke="rgb(130,112,247)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1" xlink:href="#path-12"/>
+    </g>
+  </g>
+</svg>
