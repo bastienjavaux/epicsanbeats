@@ -3,9 +3,13 @@
 
 }
 /*Nav Bar - Index*/
+.navbar-toggler {
+    z-index: 2;
+}
 .navbar-nav {
+    
     font-family: Poiret One !important;
-    font-size: 20px !important;
+    font-size: 25px !important;
     z-index: 2;
     animation-name: focus-in-contract;
     animation-duration: 1s;
@@ -30,7 +34,9 @@
     }
     
 }
-
+.navbar-collapse {
+    z-index: 2;
+}
 .bg-dark {
     --bs-bg-opacity: 0 !important;
 }
@@ -49,18 +55,20 @@
 .container-fluid{
     padding-left: 0 !important;
     padding-right: 0 !important;
+    
 }
 
 
 .logo {
     position: absolute !important;
     z-index: 2 !important;
-    color: white;
-    font-family: 'Fjalla One', sans-serif !important; 
-    text-align: center;
-    left: 0 !important;
     right: 0 !important;
-    bottom: 55% !important;
+    left: 0 !important;
+    top: 100px !important;
+    bottom: 0 !important;
+    display: block;
+    width: 100vh !important;
+    
 }
 
 
@@ -70,7 +78,7 @@
     background-image: url(/epicsanbeats/img/SVG/coucou.svg);
     background-color: transparent !important;
     position: relative !important;
-    height: 100vh ;
+    height: 120vh ;
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
